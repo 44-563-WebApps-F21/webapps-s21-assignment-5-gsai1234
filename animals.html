@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Starter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <h1>Animals by Sai Krishna Gadiparthi</h1>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-2">G</div>
+    <div class="col-sm-2">A</div>
+    <div class="col-sm-2">D</div>
+    <div class="col-sm-2">I</div>
+    <div class="col-sm-2">P</div>
+    <div class="col-sm-2">A</div>
+  </div>
+  <div class="row">
+    <div class="col-md">Goat</div>
+    <div class="col-md">Ant</div>
+    <div class="col-md">Donkey</div>
+    <div class="col-md">Ice Bear</div>
+    <div class="col-md">Polar Bear</div>
+    <div class="col-md">African Elephant</div>
+  </div>
+  <p>The row which has animal names will breaks first when minimises</p>
+
+  <br>
+  <div class="container">
+      <img src="Images/Goat.jpg" class="img-fluid" alt="Goat" width="400" height="400">
+      <img src="Images/Ant.jpg" class="img-fluid" alt="Ant" width="400" height="400">
+      <img src="Images/Donkey.jpg" class="img-fluid" alt="Donkey" width="400" height="400">
+  </div>
+  <br>
+  <br>
+  <div>
+   <img src="Images/Goat.jpg" class="img-thumbnail" alt="Goat" width="400" height="400">
+   <img src="Images/Ant.jpg" class="img-thumbnail" alt="Ant" width="400" height="400">
+   <img src="Images/Donkey.jpg" class="img-thumbnail" alt="Donkey" width="400" height="400">
+ </div>
+ <br>
+ <h4 style="padding: 5px,5px;font-family:'Times New Roman', Times, serif">My Table</h4>
+ <table class="table table-hover table-striped" style="width:80%">
+ <style>
+   table, th, td{
+     border-collapse: collapse;
+     border:2px solid lightgoldenrodyellow;
+     border-radius: 10px;
+     border-spacing: 30px;
+   }
+   tr:nth-child(even) {background-color:lightgray;}
+   tr:nth-child(odd) {background-color:limegreen;}
+ </style>
+   <caption>Letter, Animal, City, Car</caption>
+   <thead class = "table-dark">
+     <tr style="text-align: center">
+       <th scope="col">Letter</th>
+       <th scope="col">Animal</th>
+       <th scope="col">City</th>
+       <th scope="col">Car</th>
+     </tr>
+   </thead>
+   <tbody style="text-align: center; border: 2px; width: 60%;" class="table_body">
+     <tr style="text-align: center; border: 2px;">
+       <td>G</td>
+       <td>Goat</td>
+       <td>Ganga</td>
+       <td>GasCar</td>
+     </tr>
+     <tr>
+       <td>A</td>
+       <td>Ant</td>
+       <td>Andaman</td>
+       <td>Audi</td>
+     </tr>
+     <tr>
+       <td>D</td>
+       <td>Donkey</td>
+       <td>Dakota</td>
+       <td>DanceCar/td>
+     </tr>
+     <tr>
+       <td>I</td>
+       <td>Insect</td>
+       <td>India</td>
+       <td>i20</td>
+     </tr>
+       <td>P</td>
+       <td>PetDog</td>
+       <td>Patna</td>
+       <td>PoloTDI</td>
+     </tr>
+     <tr></tr>
+       <td>AntarcticaBear</td>
+       <td>Assam</td>
+       <td>Audi-Q5</td>
+     </tr>
+   </tbody>
+ </table>
+ <br>
+ <nav class="navbar navbar-light" style="background-color:gold;"></nav>
+ <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"></div>
+   <div class="btn-group" role="group" aria-label="success group">
+     <button type="button" class="btn btn-success">G</button>
+     <button type="button" class="btn btn-success">A</button>
+     <button type="button" class="btn btn-success">D</button>
+   </div>
+   <div class="btn-group" role="group" aria-label="alert group">
+     <button type="button" class="btn btn-alert">I</button>
+     <button type="button" class="btn btn-alert">P</button>
+   </div>
+   <div class="btn-group" role="group" aria-label="danger group">
+     <button type="button" class="btn btn-danger">A</button>
+   </div>
+ </div>
+ <br>
+ <form>
+   <div class="mb-3">
+     <label for="exampleInputEmail1" class="form-group">Email address</label>
+     <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+   </div>
+   <div class="mb-3">
+     <label for="Animal" class="form-group">Enter the animal</label>
+     <input type="text" class="form-control" id="exampleInputAnimal">
+   </div>
+   <div class="mb-3 form-check">
+     <input type="checkbox" class="form-check-input" id="exampleCheck">
+     <label class="form-check-label" for="Check">Sign up for newsletter?</label>
+   </div>
+   <button type="Submit" class="btn btn-primary">Submit</button>
+ </form>
+ <br>
+ <div class="card" style="width: 18rem;">
+   <img src="" class="card-img-top" alt="Kakapo">
+   <div class="card-body">
+     <h5 class="card-title">KAKAPO</h5>
+     <p class="card-text">The kakapo is a large, rotund parrot. It cannot fly, having relatively short wings for its size and lacking the keel on the sternum </p>
+     <a href="https://en.wikipedia.org/wiki/Kakapo" class="btn btn-primary">Click Here for more about Kakapo!!</a>
+   </div>
+ </div>
+ <br>
+ <div class="card" style="width: 18rem;">
+   <img src="Okapi.jpg" class="card-img-top" alt="Okapi">
+   <div class="card-body">
+     <h5 class="card-title">OKAPI</h5>
+     <p class="card-text">Okapi is also known as the forest giraffe. It is much smaller than the giraffe and shares more external similarities with bovids and cervids.</p>
+     <a href="https://en.wikipedia.org/wiki/Okapi" class="btn btn-primary">Click Here for more about Okapi!!</a>
+   </div>
+ </div>
+ <br>
+ <div class="card" style="width: 18rem;">
+   <img src="Labmaraner.jpg" class="card-img-top" alt="Labmaraner">
+   <div class="card-body">
+     <h5 class="card-title">LABMARANER</h5>
+     <p class="card-text">The Labmaraner is a mixed breed dog — a cross between the Labrador Retriever and Weimaraner dog breeds.</p>
+     <a href="https://dogtime.com/dog-breeds/labmaraner#/slide/1" class="btn btn-primary">Click Here for more about Labmaraner!!</a>
+   </div>
+</body>
+</html>
